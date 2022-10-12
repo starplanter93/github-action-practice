@@ -33,5 +33,5 @@ jobs:
           aws s3 cp \
             --region ap-northeast-2 \
             build s3://fe-106-starplanter93 \
-            --delete
+            #--delete
         working-directory: "./my-agora-states-client"
